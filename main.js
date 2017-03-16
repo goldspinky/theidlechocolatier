@@ -5,7 +5,7 @@ function CocoaBeanClick(number){
     document.getElementById("CocoaBeans").innerHTML = CocoaBeans;
 };
 
-var CocoaPods = 0;
+var CocoaPod = 0;
 
 function buyCocoaPods(){
     var CocoaPodCost = Math.floor(10 * Math.pow(1.1,CocoaPod));    	//works out the cost of this cocoa pod

@@ -12,7 +12,8 @@
 		Click the cocoa bean!
 		<br />
 		Cocoa beans: <span id="cookies">0</span>
-		
+		<br />
+		<br />
 		<b>Increase your cocoa bean production with cocoa pods!</b>
 		<br />
 		<img src="http://thumb9.shutterstock.com/thumb_large/815224/815224,1314868922,6/stock-vector-cacao-bean-83810602.jpg" alt="Cocoa Pod" style="width:100px;height:60px;">

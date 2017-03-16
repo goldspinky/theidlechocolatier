@@ -9,10 +9,10 @@ function cocoabeanclick(number){
 };
 
 
-function buycocoapod(number){
+function buycocoapod(){
     var cocoapodcost = Math.floor(10 * Math.pow(1.1,cocoapod));    	//works out the cost of this cocoa pod
     if(cocoabeans >= cocoapodcost){                                  	//checks that the player can afford the cocoa pod
-        cocoapod = cocoapod + number;                                   //increases number of cocoa pod
+        cocoapod = cocoapod + 1;                                   	//increases number of cocoa pod
     	cocoabeans = cocoabeans - cocoapodcost;                        	//removes the cocoa beans spent
         document.getElementById('cocoapod').innerHTML = cocoapod;  	//updates the number of cocoa pods for the user
         document.getElementById('cocoabeans').innerHTML = cocoabeans;  	//updates the number of cocoa beans for the user
@@ -22,10 +22,10 @@ function buycocoapod(number){
 };
 
 
-function buycocoatree(number){
+function buycocoatree(){
     var cocoatreecost = Math.floor(1000 * Math.pow(1.1,cocoatree));    	//works out the cost of this cocoa tree
     if(cocoabeans >= cocoatreecost){                                  	//checks that the player can afford the cocoa tree
-        cocoatree = cocoatree + number;                                   	//increases number of cocoa trees
+        cocoatree = cocoatree + 1;                                   	//increases number of cocoa trees
     	cocoabeans = cocoabeans - cocoatreecost;                        //removes the cocoa beans spent
         document.getElementById('cocoatree').innerHTML = cocoatree;  	//updates the number of cocoa trees for the user
         document.getElementById('cocoabeans').innerHTML = cocoabeans;  	//updates the number of cocoa beans for the user

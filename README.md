@@ -29,7 +29,7 @@
 		<br />
 		Cocoa tree cost: <span id="cocoatreecost">1000</span>
 		<br />
-		Cocoa trees: <span id="cocoatrees">0</span>
+		Cocoa trees: <span id="cocoatree">0</span>
 		<script type="text/javascript" src="main.js"></script>
 	
 	</body>

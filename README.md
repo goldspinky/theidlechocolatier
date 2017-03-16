@@ -2,11 +2,9 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="interface.css" />
 	</head>
+	
 	<body>
-	
-	<!-- Link to Javascript file -->
-	<script type="text/javascript" src="main.js"></script>
-	
+		
 	<h1>The Idle Chocolatier</h1>
 	<h3>The tastiest game on the interwebs...</h3>
 	<br/>
@@ -27,7 +25,10 @@
 				Cocoa pods: <span id="cursors">0</span>
 				<br />
 				Cocoa pod cost: <span id="cursorCost">10</span></td>
-			</tr>				
+			</tr>
+			</table>
 		
+	<script type="text/javascript" src="main.js"></script>
+	
 	</body>
 </html>

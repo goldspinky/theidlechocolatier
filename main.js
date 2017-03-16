@@ -7,7 +7,7 @@ function CocoaBeanClick(number){
 
 var CocoaPod = 0;
 
-function buyCocoaPods(){
+function buyCocoaPod(){
     var CocoaPodCost = Math.floor(10 * Math.pow(1.1,CocoaPod));    	//works out the cost of this cocoa pod
     if(CocoaBeans >= CocoaPodCost){                                  	//checks that the player can afford the cocoa pod
         CocoaPod = CocoaPod + 1;                                   	//increases number of cocoa pod

@@ -23,7 +23,6 @@
 		Cocoa pods: <span id="cocoapod">0</span>
 		<br />
 		<br />
-		
 		<b>Increase your cocoa pod production with cocoa trees!</b>
 		<br />
 		<img src="cocoa-tree-19431278.jpg" alt="Cocoa Tree" style="width:100px;height:100px;" onclick="buycocoatree()">
@@ -31,7 +30,7 @@
 		Cocoa tree cost: <span id="cocoatreecost">1000</span>
 		<br />
 		Cocoa trees: <span id="cocoatree">0</span>
-		
+		<br />
 		<script type="text/javascript" src="main.js"></script>
 	
 	</body>

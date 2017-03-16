@@ -28,7 +28,7 @@ function buycocoatree(cocoatree){
         cocoatree = cocoatree + 1;                                   	//increases number of cocoa trees
     	cocoabeans = cocoabeans - cocoatreecost;                        //removes the cocoa beans spent
         document.getElementById('cocoatree').innerHTML = cocoatree;  	//updates the number of cocoa trees for the user
-        document.getElementById('cocoapod').innerHTML = cocoapod;  	//updates the number of cocoa pods for the user
+        document.getElementById('cocoabeans').innerHTML = cocoabeans;  	//updates the number of cocoa beans for the user
     };
     var nextCost = Math.floor(1000 * Math.pow(1.1,cocoatree));       	//works out the cost of the next cocoa tree
     document.getElementById('cocoatreecost').innerHTML = nextCost; 	//updates the cocoa tree cost for the user

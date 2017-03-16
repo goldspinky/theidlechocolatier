@@ -37,6 +37,5 @@ function buycocoatree(){
 window.setInterval(function(){
 	
 	cocoabeanclick(cocoapod);
-	buycocoapod(cocoatree);
 	
 }, 1000);

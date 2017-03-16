@@ -25,7 +25,7 @@
 		<br />
 		<b>Increase your cocoa pod production with cocoa trees!</b>
 		<br />
-		<img src="cocoa-tree-19431278" alt="Cocoa Tree" style="width:100px;height:60px;" onclick="buyCocoaTree()">
+		<img src="cocoa-tree-19431278.jpg" alt="Cocoa Tree" style="width:100px;height:60px;" onclick="buyCocoaTree()">
 		<br />
 		Cocoa tree cost: <span id="CocoaTreeCost">1000</span>
 		<br />

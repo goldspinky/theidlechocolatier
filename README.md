@@ -10,7 +10,7 @@
 		<br />
 		Cocoa beans: <span id="cookies">0</span>
 		<br />
-		<button onclick="buyCursor()">Buy Cursor</button>
+		<button onclick="buyCursor()">Buy Plant</button>
 		<br />
 		Cocoa plants: <span id="cursors">0</span>
 		<br />

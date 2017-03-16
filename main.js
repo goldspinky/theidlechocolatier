@@ -19,11 +19,6 @@ function buycocoapod(){
     document.getElementById('cocoapodcost').innerHTML = nextCost; 	//updates the cocoa pod cost for the user
 };
 
-window.setInterval(function(){
-	
-	cocoabeanclick(cocoapod);
-	
-}, 1000);
 
 var cocoatree = 0;
 
@@ -41,6 +36,7 @@ function buycocoatree(){
 
 window.setInterval(function(){
 	
+	cocoabeanclick(cocoapod);
 	buycocoapod(cocoatree);
 	
-}, 100000);
+}, 1000);

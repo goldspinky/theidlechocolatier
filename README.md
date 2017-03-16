@@ -6,7 +6,7 @@
 	<h1>The Idle Chocolatier</h1>
 	<h3>The tastiest game on the interwebs...</h3>
 	<br/>
-		<img src="http://www.clipartkid.com/images/47/coffee-bean-clip-art-at-clker-com-vector-clip-art-online-royalty-oWV12o-clipart.png" alt="Cocoa Bean" style="width:304px;height:228px;" onclick="cookieClick(1)">
+		<img src="http://www.clipartkid.com/images/47/coffee-bean-clip-art-at-clker-com-vector-clip-art-online-royalty-oWV12o-clipart.png" alt="Cocoa Bean" style="width:100px;height:60px;" onclick="cookieClick(1)">
 		<br/>
 		Click the cocoa bean!
 		<br />

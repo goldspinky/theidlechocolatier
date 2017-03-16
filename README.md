@@ -5,7 +5,6 @@
 	<body>
 	<h1>The Idle Chocolatier</h1>
 	<br/>
-	<br/>
 	<h3>The tastiest game on the interwebs...</h3>
 	<br/>
 		<button onclick="cookieClick(1)">Click Me!</button>

@@ -3,8 +3,8 @@ var cocoapod = 0;
 var cocoatree = 0;
 
 
-function cocoabeanclick(){
-    cocoabeans = cocoabeans + 1;
+function cocoabeanclick(number){
+    cocoabeans = cocoabeans + number;
     document.getElementById("cocoabeans").innerHTML = cocoabeans;
 };
 

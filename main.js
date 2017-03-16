@@ -1,11 +1,13 @@
 var cocoabeans = 0;
+var cocoapod = 0;
+var cocoatree = 0;
+
 
 function cocoabeanclick(number){
     cocoabeans = cocoabeans + number;
     document.getElementById("cocoabeans").innerHTML = cocoabeans;
 };
 
-var cocoapod = 0;
 
 function buycocoapod(){
     var cocoapodcost = Math.floor(10 * Math.pow(1.1,cocoapod));    	//works out the cost of this cocoa pod
@@ -19,8 +21,6 @@ function buycocoapod(){
     document.getElementById('cocoapodcost').innerHTML = nextCost; 	//updates the cocoa pod cost for the user
 };
 
-
-var cocoatree = 0;
 
 function buycocoatree(){
     var cocoatreecost = Math.floor(1000 * Math.pow(1.1,cocoatree));    	//works out the cost of this cocoa tree

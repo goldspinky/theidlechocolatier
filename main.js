@@ -4,7 +4,7 @@ var cocoatree = 0;
 
 
 function cocoabeanclick(number){
-    cocoabeans = cocoabeans + number;
+    cocoabeans = cocoabeans + 1;
     document.getElementById("cocoabeans").innerHTML = cocoabeans;
 };
 

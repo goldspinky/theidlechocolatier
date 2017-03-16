@@ -21,7 +21,7 @@ function buyCocoaPod(){
 
 window.setInterval(function(){
 	
-	CocoaBeansClick(CocoaPod);
+	CocoaBeanClick(CocoaPod);
 	
 }, 1000);
 
@@ -41,6 +41,6 @@ function buyCocoaTree(){
 
 window.setInterval(function(){
 	
-	CocoaPodClick(CocoaTree);
+	buyCocoaPod(CocoaTree);
 	
 }, 100000);

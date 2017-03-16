@@ -7,7 +7,7 @@
 	<h3>The tastiest game on the interwebs...</h3>
 	<br/>
 		
-		<img src="coffee-bean-clip-art-at-clker-com-vector-clip-art-online-royalty-oWV12o-clipart.png" alt="Cocoa Bean" style="width:100px;height:60px;" onclick="cocoabeanclick(1)">
+		<img src="coffee-bean-clip-art-at-clker-com-vector-clip-art-online-royalty-oWV12o-clipart.png" alt="Cocoa Bean" style="width:100px;height:60px;" onclick="cocoabeanclick()">
 		<br />
 		Click the cocoa bean!
 		<br />

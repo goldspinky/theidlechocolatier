@@ -3,16 +3,16 @@ var cocoapod = 0;
 var cocoatree = 0;
 
 
-function cocoabeanclick(){
-    cocoabeans = cocoabeans + 1;
+function cocoabeanclick(number){
+    cocoabeans = cocoabeans + number;
     document.getElementById("cocoabeans").innerHTML = cocoabeans;
 };
 
 
-function buycocoapod(){
+function buycocoapod(another){
     var cocoapodcost = Math.floor(10 * Math.pow(1.1,cocoapod));    	//works out the cost of this cocoa pod
     if(cocoabeans >= cocoapodcost){                                  	//checks that the player can afford the cocoa pod
-        cocoapod = cocoapod + 1;                                   	//increases number of cocoa pod
+        cocoapod = cocoapod + another;                                   	//increases number of cocoa pod
     	cocoabeans = cocoabeans - cocoapodcost;                        	//removes the cocoa beans spent
         document.getElementById('cocoapod').innerHTML = cocoapod;  	//updates the number of cocoa pods for the user
         document.getElementById('cocoabeans').innerHTML = cocoabeans;  	//updates the number of cocoa beans for the user

@@ -16,7 +16,7 @@
 		<br />
 		<b>Increase your cocoa bean production with cocoa pods!</b>
 		<br />
-		<img src="http://thumb9.shutterstock.com/thumb_large/815224/815224,1314868922,6/stock-vector-cacao-bean-83810602.jpg" alt="Cocoa Pod" style="width:100px;height:60px;" onclick="buyCursor()>
+		<img src="http://thumb9.shutterstock.com/thumb_large/815224/815224,1314868922,6/stock-vector-cacao-bean-83810602.jpg" alt="Cocoa Pod" style="width:100px;height:60px;" onclick="buyCursor()">
 		<br />
 		Cocoa pod cost: <span id="cursorCost">10</span>
 		<br />

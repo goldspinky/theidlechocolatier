@@ -7,7 +7,7 @@
 	<h3>The tastiest game on the interwebs...</h3>
 	<br/>
 		
-		<img src="coffee-bean-clip-art-at-clker-com-vector-clip-art-online-royalty-oWV12o-clipart.png" alt="Cocoa Bean" style="width:100px;height:60px;" onclick="cocoabeanclick()">
+		<img src="coffee-bean-clip-art-at-clker-com-vector-clip-art-online-royalty-oWV12o-clipart.png" alt="Cocoa Bean" style="width:100px;height:60px;" onclick="cocoabeanclick(1)">
 		<br />
 		Click the cocoa bean!
 		<br />
@@ -16,7 +16,7 @@
 		<br />
 		<b>Increase your cocoa bean production with cocoa pods!</b>
 		<br />
-		<img src="stock-vector-cacao-bean-83810602.jpg" alt="Cocoa Pod" style="width:100px;height:60px;" onclick="buycocoapod()">
+		<img src="stock-vector-cacao-bean-83810602.jpg" alt="Cocoa Pod" style="width:100px;height:60px;" onclick="buycocoapod(1)">
 		<br />
 		Cocoa pod cost: <span id="cocoapodcost">10</span>
 		<br />
@@ -25,7 +25,7 @@
 		<br />
 		<b>Increase your cocoa pod production with cocoa trees!</b>
 		<br />
-		<img src="cocoa-tree-19431278.jpg" alt="Cocoa Tree" style="width:100px;height:100px;" onclick="buycocoatree()">
+		<img src="cocoa-tree-19431278.jpg" alt="Cocoa Tree" style="width:100px;height:100px;" onclick="buycocoatree(1)">
 		<br />
 		Cocoa tree cost: <span id="cocoatreecost">1000</span>
 		<br />

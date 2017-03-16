@@ -16,7 +16,7 @@
 		<br />
 		<b>Increase your cocoa bean production with cocoa pods!</b>
 		<br />
-		<img src="stock-vector-cacao-bean-83810602.jpg" alt="Cocoa Pod" style="width:100px;height:60px;" onclick="buycocoapod(1)">
+		<img src="stock-vector-cacao-bean-83810602.jpg" alt="Cocoa Pod" style="width:100px;height:60px;" onclick="buycocoapod()">
 		<br />
 		Cocoa pod cost: <span id="cocoapodcost">10</span>
 		<br />
@@ -25,7 +25,7 @@
 		<br />
 		<b>Increase your cocoa pod production with cocoa trees!</b>
 		<br />
-		<img src="cocoa-tree-19431278.jpg" alt="Cocoa Tree" style="width:100px;height:100px;" onclick="buycocoatree(1)">
+		<img src="cocoa-tree-19431278.jpg" alt="Cocoa Tree" style="width:100px;height:100px;" onclick="buycocoatree()">
 		<br />
 		Cocoa tree cost: <span id="cocoatreecost">1000</span>
 		<br />

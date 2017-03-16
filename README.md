@@ -3,6 +3,8 @@
 		<link rel="stylesheet" type="text/css" href="interface.css" />
 	</head>
 	<body>
+	<h1>The Idle Chocolatier</h1>
+	<br/>
 		<button onclick="cookieClick(1)">Click Me!</button>
 		<br />
 		Cookies: <span id="cookies">0</span>

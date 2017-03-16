@@ -2,9 +2,7 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="interface.css" />
 	</head>
-	
 	<body>
-		
 	<h1>The Idle Chocolatier</h1>
 	<h3>The tastiest game on the interwebs...</h3>
 	<br/>
